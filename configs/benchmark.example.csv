@@ -1,0 +1,4 @@
+image,plate,color,x,y,width,height
+images/sample_001.jpg,京A12345,blue,660,450,600,180
+images/sample_002.jpg,粤B12345D,green,,,,
+

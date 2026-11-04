@@ -1,0 +1,26 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "qt-release",
+      "displayName": "Qt MinGW Release",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/../../build/desktop-qt",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "QT_ROOT": "D:/DownLoad/Qt/6.12.0/mingw_64",
+        "CMAKE_PREFIX_PATH": "D:/DownLoad/Qt/6.12.0/mingw_64",
+        "CMAKE_C_COMPILER": "D:/DownLoad/Qt/Tools/mingw1310_64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "D:/DownLoad/Qt/Tools/mingw1310_64/bin/g++.exe",
+        "CMAKE_MAKE_PROGRAM": "D:/DownLoad/Qt/Tools/Ninja/ninja.exe"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "qt-release",
+      "configurePreset": "qt-release"
+    }
+  ]
+}
+
